@@ -1,0 +1,20 @@
+ .section-title{
+     text-align: center;
+     margin: 50px 0;
+     h2{
+         color: white;
+         text-transform: uppercase;
+     }
+ }
+ 
+ .project{
+    background: $black;
+}
+.list-group-item{
+ a{
+     transition: .3s;
+     &:hover{
+         color: #0d6efd !important;
+     }
+ }
+}
